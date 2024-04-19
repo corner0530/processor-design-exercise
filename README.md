@@ -1,5 +1,7 @@
 # プロセッサ設計演習の設計ファイル
 
+SIMPLEアーキテクチャに改良（5段パイプライン・ハーバード・不成立分岐予測・即値命令）を加えてVerilogで実装したもの
+
 ## 参考サイト
 http://isle3hw.kuis.kyoto-u.ac.jp/#processor
 
