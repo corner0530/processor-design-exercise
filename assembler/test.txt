@@ -1,0 +1,5 @@
+LI 0, 1
+LI 1, 3
+ADD 0, 1
+OUT 0
+HLT

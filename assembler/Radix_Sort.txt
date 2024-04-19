@@ -1,0 +1,97 @@
+LI 2, 1
+LI 0, 1
+SLL 0, 10
+MOV 1, 0
+MOV 3, 0
+ADD 1, 0
+B 2
+CMP 3, 1
+BE 18
+LD 6, 0, 3
+ADDI 3, 1
+MOV 7, 6
+AND 7, 2
+CMPI 7, 0
+BE 7
+ADD 1, 0
+MOV 7, 1
+ADD 7, 5
+ST 6, 0, 7
+ADDI 5, 1
+SUB 1, 0
+B -15
+MOV 7, 1
+ADD 7, 4
+ST 6, 0, 7
+ADDI 4, 1
+B -20
+ADD 1, 0
+MOV 7, 1
+ADD 7, 5
+LI 5, 0
+CMP 7, 1
+BE 5
+SUBI 7, 1
+LD 6, 0, 7
+SUBI 3, 1
+ST 6, 0, 3 
+B -7
+SUB 1, 0
+MOV 7, 1
+ADD 7, 4
+LI 4, 0
+CMP 7, 1
+BE 5
+SUBI 7, 1 
+LD 6, 0, 7
+SUBI 3, 1
+ST 6, 0, 3
+B -7
+SLL 2, 1
+LI 6, 8
+SLL 6, 12
+CMP 2, 6
+BE 3
+B -46 
+CMP 3, 1
+BE 18
+LD 6, 0, 3
+ADDI 3, 1
+MOV 7, 6
+SRL 7, 15
+CMPI 7, 0
+BE 5
+MOV 7, 1
+ADD 7, 4
+ST 6, 0, 7
+ADDI 4, 1
+B -13
+ADD 1, 0
+MOV 7, 1
+ADD 7, 5
+ST 6, 0, 7
+ADDI 5, 1
+SUB 1, 0
+B -20
+ADD 1, 0
+MOV 7, 1
+ADD 7, 5
+CMP 7, 1
+BE 5
+SUBI 7, 1
+LD 6, 0, 7
+SUBI 3, 1
+ST 6, 0, 3
+B -7
+SUB 1, 0
+MOV 7, 1
+ADD 7, 4
+CMP 7, 1
+BE 5
+SUBI 7, 1
+LD 6, 0, 7
+SUBI 3, 1
+ST 6, 0, 3
+B -7
+OUT 0
+HLT
